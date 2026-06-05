@@ -833,7 +833,9 @@ $user_name = $_SESSION['user_name'] ?? '';
 </head>
 <body style="padding-top: 56px;">
     <!-- Top Navbar -->
-    <?php include 'navbar.php'; ?>
+    <?php if (!isset($show_navbar) || $show_navbar !== false): ?>
+        <?php include 'navbar.php'; ?>
+    <?php endif; ?>
 
     <!-- Sidebar -->
     <div class="sidebar" id="sidebar">

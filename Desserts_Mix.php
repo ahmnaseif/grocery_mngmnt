@@ -1,6 +1,7 @@
 <?php
 ob_start();
 $page_title = 'Desserts Mix';
+$show_navbar = false;
 ?>
 <div id="categoryProducts" class="category-grid"></div>
 <script>

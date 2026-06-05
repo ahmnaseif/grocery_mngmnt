@@ -88,7 +88,7 @@ if (!isset($_SESSION['user']) || $_SESSION['usertype'] !== 'admin') {
     <div class="card shadow p-3">
       <h5 class="mb-3">Quick Actions</h5>
       <a href="employee.php" class="btn btn-primary w-100 mb-2">+ Add Employee</a>
-      <a href="product.php" class="btn btn-success w-100 mb-2">+ Add Product</a>
+      <a href="productmngmnt.php" class="btn btn-success w-100 mb-2">+ Add Product</a>
       <a href="usermngmnt.php" class="btn btn-dark w-100">Manage Users</a>
     </div>
   </div>
